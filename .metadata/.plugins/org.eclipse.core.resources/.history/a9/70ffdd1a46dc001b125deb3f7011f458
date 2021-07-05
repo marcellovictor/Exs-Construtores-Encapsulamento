@@ -1,0 +1,13 @@
+package entidades;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Aluno {
+
+	//ATRIBUTOS
+	
+	private String nome;
+	private String matricula;
+	private List<Turma> turmas = new ArrayList<>();
+}
